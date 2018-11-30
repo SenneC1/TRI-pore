@@ -19,6 +19,21 @@ To bypass this hiatus, the short PCR amplicons were be pooled and ligated random
 This ligation protocol was furhter elaborated and a barcoding system was added, allowing for the analysis of multiple samples in one sequencing run. 
 This repository contains the code to identify the barcode, split and allocate the concatenated reads into to subreads and the subsequently perform the SNP detection. 
 
+## Methods
+
+Illumina sequencing: Illumina sequencing was performed to generate a "true" profile
+                     Data 
+                     
+1D & 1D2 Nanopore  :The 1D2 sequencing differs from the 1D by the fact that both the forward and reverse strand are sequencing in a 1D2                     run. This allows creation of a consensus sequence which allows to correct the sequencing errors. 
+                    Variant calling on the data produced by both sequecing approaches is the identical
+                    
+                    A) Barcode identification
+                    The barcodes are identified using a fuzzy regex allowing up to 3 sequencing errors.
+                    
+                    B) For each sample a mapping of the data against a reference databases is performed.
+                    The database consists of the SNP and 25 nucleotides of the right and left flanking region
+                    A table containing all variants of all loci is generated allowing SNP profile generation
+
 ## Links
 
 Oxford Nanopore Technologies
