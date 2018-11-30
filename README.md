@@ -1,6 +1,6 @@
 # TRI-pore
 
-Forensic Nanopore SNP sequencing
+Forensic Nanopore tri-allelic SNP sequencing
 
 ## Background
 
@@ -47,5 +47,6 @@ Senne Cornelis,
 Yannick Gansemans,
 Ann-Sophie Vander Plaetsen,
 Sander Willems,
+Jana Weymaere,
 Dieter Deforce,
 Filip Van Nieuwerburgh 
