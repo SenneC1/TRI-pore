@@ -30,7 +30,8 @@ Illumina sequencing: Illumina sequencing was performed to generate a "true" prof
                     A) Barcode identification
                     The barcodes are identified using a fuzzy regex allowing up to 3 sequencing errors.
                     
-                    B) For each sample a mapping of the data against a reference databases is performed.
+                    B)SNP profile generation
+                    For each sample a mapping of the data against a reference databases is performed.
                     The database consists of the SNP and 25 nucleotides of the right and left flanking region
                     A table containing all variants of all loci is generated allowing SNP profile generation
 
